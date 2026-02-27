@@ -26,18 +26,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} relative min-h-screen bg-zinc-50 text-zinc-900 antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} relative min-h-screen text-zinc-900 antialiased`}
       >
-        {/* Subtle global background gradient */}
+        {/* Ambient top glow */}
         <div
           aria-hidden
-          className="pointer-events-none fixed inset-0 -z-10 bg-gradient-to-b from-zinc-100/60 via-white to-white"
-        />
-
-        {/* Soft top glow */}
-        <div
-          aria-hidden
-          className="pointer-events-none fixed left-1/2 top-[-12rem] -z-10 h-[32rem] w-[32rem] -translate-x-1/2 rounded-full bg-zinc-200/40 blur-3xl"
+          className="pointer-events-none fixed left-1/2 top-[-10rem] -z-10 h-[36rem] w-[36rem] -translate-x-1/2 rounded-full bg-white/20 blur-3xl"
         />
 
         {children}

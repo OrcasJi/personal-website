@@ -20,10 +20,10 @@ export default function About() {
           </div>
 
           <div className="flex gap-2">
-            <a href="/" className="btn-secondary">
+            <a href="/" className="bg-white/30 backdrop-blur-md card mt-20 p-6">
               Home
             </a>
-            <a href="/projects" className="btn-primary">
+            <a href="/projects" className="bg-white/30 backdrop-blur-md card mt-20 p-6">
               View Projects
             </a>
           </div>
@@ -207,7 +207,7 @@ export default function About() {
             </h2>
             <ul className="mt-4 space-y-2 text-sm text-zinc-700">
               <li className="leading-relaxed">
-                <span className="font-medium">MSc Computer Science</span> — Queen
+                <span className="font-medium">MSc Computer Science (2:1)</span> — Queen
                 Mary University of London
               </li>
               <li className="leading-relaxed">
