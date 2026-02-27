@@ -56,6 +56,23 @@ const PROJECTS: Project[] = [
     ],
   },
   {
+    title: "BookmarkHub",
+    featured: true,
+    tagline: "Full-stack bookmark manager with auth, tags, and public sharing",
+    description:
+      "A full-stack bookmark manager where users can save, organise, and share links. Features JWT authentication, tag-based filtering, search, and a public feed — built end-to-end with a clean REST API and a responsive React UI.",
+    highlights: [
+      "Built a REST API with Express and Prisma ORM — register, login (JWT), and full bookmark CRUD",
+      "Implemented tag filtering, full-text search, and public/private visibility per bookmark",
+      "Designed a React frontend with protected routes, modal forms, and a toggle-based public feed",
+    ],
+    tech: ["React", "Node.js", "Express", "PostgreSQL", "Prisma", "JWT", "Tailwind CSS"],
+    tags: ["Full-Stack", "Web"],
+    links: [
+      { label: "GitHub", href: "https://github.com/OrcasJi/bookmarkhub" },
+    ],
+  },
+  {
     title: "Personal Portfolio Website",
     tagline: "Minimal, recruiter-friendly portfolio with fast performance",
     description:
