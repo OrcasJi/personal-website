@@ -118,6 +118,21 @@ export default function About() {
                   and practical experimentation.
                 </span>
               </li>
+              <li className="flex gap-2">
+                <span className="mt-[7px] h-1.5 w-1.5 shrink-0 rounded-full bg-zinc-400" />
+                <span className="leading-relaxed">
+                  Awarded <span className="font-medium">2nd place</span> at a hackathon for{" "}
+                  <a
+                    href="https://github.com/OrcasJi/mira"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="font-medium underline decoration-zinc-300 hover:decoration-zinc-600"
+                  >
+                    Mira
+                  </a>
+                  {" "}— a voice AI companion that generates a personalised 紫微斗数 chart from birth data and opens with a spoken introduction in character, built end-to-end in 24 hours.
+                </span>
+              </li>
             </ul>
           </div>
 
@@ -180,6 +195,47 @@ export default function About() {
                   <span className="leading-relaxed">
                     Strengthened attention to detail, communication, and working
                     with stakeholders under deadlines.
+                  </span>
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <div className="flex flex-col gap-1 sm:flex-row sm:items-baseline sm:justify-between">
+                <p className="font-medium text-zinc-900">
+                  <a
+                    href="https://github.com/OrcasJi/mira"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="underline decoration-zinc-300 hover:decoration-zinc-600"
+                  >
+                    Mira
+                  </a>
+                  {" "}— Hackathon, 2nd Place
+                </p>
+                <p className="text-sm text-zinc-500">24-hour Sprint</p>
+              </div>
+              <ul className="mt-3 space-y-2 text-sm text-zinc-700">
+                <li className="flex gap-2">
+                  <span className="mt-[7px] h-1.5 w-1.5 shrink-0 rounded-full bg-zinc-400" />
+                  <span className="leading-relaxed">
+                    Built a voice-first AI companion that parses a 紫微斗数 birth chart using{" "}
+                    <span className="font-medium">iztro</span>, maps the user to
+                    one of four archetypal personas, and delivers a spoken
+                    introduction personalised to their chart — zero onboarding
+                    friction.
+                  </span>
+                </li>
+                <li className="flex gap-2">
+                  <span className="mt-[7px] h-1.5 w-1.5 shrink-0 rounded-full bg-zinc-400" />
+                  <span className="leading-relaxed">
+                    Integrated{" "}
+                    <span className="font-medium">
+                      Alibaba DashScope (Qwen)
+                    </span>{" "}
+                    + <span className="font-medium">GLM-4-Voice</span> for
+                    real-time spoken dialogue; shipped the full Next.js 14 app
+                    within 24 hours.
                   </span>
                 </li>
               </ul>

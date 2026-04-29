@@ -56,6 +56,24 @@ const PROJECTS: Project[] = [
     ],
   },
   {
+    title: "Mira — AI Companion (Hackathon 2nd Place)",
+    featured: true,
+    tagline: "Zero cold-start AI companion powered by 紫微斗数 astrology + real-time voice",
+    description:
+      "A voice-first AI companion that knows you from the moment you arrive — no small talk, no onboarding friction. Enter your birth date and time, and Mira generates a personalised Zi Wei Dou Shu (紫微斗数) chart, maps you to one of four archetypal personas, and opens with a 20-second spoken introduction referencing real insights from your chart. Built end-to-end in a 24-hour hackathon sprint; awarded 2nd place.",
+    highlights: [
+      "Designed a full 紫微斗数 pipeline using the iztro library — parses birth data into 12-palace charts and extracts dominant stars across Self, Relationships, and Career palaces",
+      "Engineered four distinct LLM personas (Sovereign, Flame, Seer, Warmth) each with bilingual (EN/CN) system prompts derived directly from chart output",
+      "Integrated Alibaba DashScope (Qwen) for LLM inference and wired a real-time voice layer (GLM-4-Voice) for spoken dialogue",
+      "Shipped a polished Next.js 14 app — onboarding → animated character birth → voice encounter → multi-turn dialogue — within 24 hours",
+    ],
+    tech: ["Next.js 14", "TypeScript", "DashScope (Qwen)", "GLM-4-Voice", "iztro", "Tailwind CSS"],
+    tags: ["AI", "Full-Stack", "Web"],
+    links: [
+      { label: "GitHub", href: "https://github.com/OrcasJi/mira" },
+    ],
+  },
+  {
     title: "Personal Portfolio Website",
     tagline: "Minimal, recruiter-friendly portfolio with fast performance",
     description:
