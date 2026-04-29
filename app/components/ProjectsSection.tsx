@@ -56,6 +56,23 @@ const PROJECTS: Project[] = [
     ],
   },
   {
+    title: "Mira — AI Companion (Hackathon 2nd Place)",
+    featured: true,
+    tagline: "Zero cold-start AI companion powered by 紫微斗数 astrology + real-time voice",
+    description:
+      "Built for an AI Aesthetics 24-hour hackathon — awarded 2nd place. Mira is a voice-first AI companion that knows you from the moment you arrive. Enter your birth date and time, and Mira generates a personalised Zi Wei Dou Shu (紫微斗数) chart, maps you to one of four archetypal personas, and opens with a spoken introduction drawn from real chart insights. Entire codebase written with Claude as the AI coding environment.",
+    highlights: [
+      "Designed a full 紫微斗数 pipeline using iztro — parses birth data into 12-palace charts and extracts dominant stars across Self, Relationships, and Career palaces",
+      "Engineered four distinct LLM personas (Sovereign, Flame, Seer, Warmth) with bilingual (EN/CN) system prompts derived directly from chart output",
+      "Integrated Alibaba DashScope (Qwen) for LLM inference and GLM-4-Voice for real-time spoken dialogue; shipped the full app within 24 hours using Claude as the primary coding environment",
+    ],
+    tech: ["Next.js 14", "TypeScript", "DashScope (Qwen)", "GLM-4-Voice", "iztro", "Claude", "Tailwind CSS"],
+    tags: ["AI", "Full-Stack", "Web"],
+    links: [
+      { label: "GitHub", href: "https://github.com/OrcasJi/mira" },
+    ],
+  },
+  {
     title: "BookmarkHub",
     featured: true,
     tagline: "Full-stack bookmark manager with auth, tags, and public sharing",
